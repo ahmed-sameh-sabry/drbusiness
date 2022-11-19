@@ -831,10 +831,81 @@ preloader
     background: #640F87;
     border-radius: 50%;
 }
+/* 
+---------------------------------------------
+video
+--------------------------------------------- 
+*/
 
-
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
 
 /* 
+---------------------------------------------
+social media
+--------------------------------------------- 
+*/
+.section1{
+  position:relative;
+  height:600px;
+  background:#F1F5F8;
+  padding:10px 0px;
+  width:100%;
+}
+.section1 h2{
+  text-align:center;
+  font-size:40px;
+}
+.section1 p{
+  text-align:center;
+  padding:0px 70px;
+  color:grey;
+}
+.sticky-social{
+  position:fixed;
+  top:100px;
+  left:0px;
+  padding:0px;
+  margin:0px;
+}
+.social{
+  list-style:none;
+}
+.social li{
+  padding:10px 10px;
+  font-size:25px;
+  transition:all 0.8s ease-in-out;
+}
+.social li:hover{
+    margin-right:-30px;
+ box-shadow:2px 5px 10px grey;
+}
+.social li:hover .fa{
+    margin-left:20px;
+  
+}
+.fa{
+  color:#fff;
+  transition:all 0.8s ease-in-out;
+}
+.fb{
+  background-color:#3C5A98;
+}
+.twitter{
+    background-color:#1EA1F2;
+}
+.insta{
+    background-color:#DC4F42;
+}
+.pin{
+    background-color:#CB2128;
+}
+.vim{
+    background-color:#59BFBE;
+}
+/*
 ---------------------------------------------
 Banner Style
 --------------------------------------------- 
@@ -848,7 +919,7 @@ Banner Style
   position: relative;
   overflow: hidden;
 }
-/*
+
 .main-banner:after {
   content: '';
   background-image: url(../images/banner-dec-left.png);
@@ -859,8 +930,9 @@ Banner Style
   width: 212px;
   height: 653px;
   z-index: -1;
+  opacity: 20%;
 }
-*/
+
 /*
 .main-banner:before {
   content: '';
@@ -1355,7 +1427,7 @@ Services Style
 }
 
 .service-item:hover {
-  background-color: #fff;
+  background-color:#640F87 ;
   border: 2px solid transparent;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
@@ -1482,7 +1554,7 @@ Portfolio
 
 .our-portfolio .owl-nav span:hover {
   color: #640F87;
-  border-color: #640F87;
+  border-color: #89F691;
 }
 
 
